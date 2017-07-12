@@ -1,0 +1,81 @@
+{
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.db"
+	],
+	"color_scheme": "Packages/Colorsublime - Themes/Foggy-Evening.tmTheme",
+	"detect_indentation": true,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.sublime-workspace",
+		"intercom-base.css",
+		"log/*.log"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		".bower",
+		"tmp",
+		"ember-dev",
+		"~"
+	],
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"no_antialias_"
+	],
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"SideBarEnhancements",
+		"Vintage"
+	],
+	"line_padding_bottom": -1,
+	"line_padding_top": -2,
+	"rulers":
+	[
+	],
+	"scroll_past_end": true,
+	"tab_completion": true,
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

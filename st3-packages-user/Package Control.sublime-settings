@@ -1,0 +1,41 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"arduino-cli",
+		"Babel",
+		"Better CoffeeScript",
+		"ColorPick",
+		"ColorPicker",
+		"Colorsublime",
+		"Elixir",
+		"Gist",
+		"GitGutter",
+		"Github Tools",
+		"Handlebars",
+		"Jade",
+		"JSHint",
+		"JSX",
+		"LESS",
+		"nginx",
+		"Package Control",
+		"Promela_Spin",
+		"Python Completions",
+		"RSpec",
+		"Sass",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeERB",
+		"Swig",
+		"Terminal",
+		"Theme - Lyte",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"VHDL",
+		"View In Browser",
+		"Warp-OS Color Scheme"
+	]
+}

@@ -1,0 +1,8 @@
+{
+    // Your GitHub API token
+    // see: https://github.com/condemil/Gist#generating-access-token
+    "token": "5dfcb2fc6778bee7e33d960a2e725c141b5f626d",
+
+    // Show the authors of Gists
+    "show_authors": true
+}
