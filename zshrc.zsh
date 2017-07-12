@@ -77,7 +77,7 @@ stophb() {
 }
 
 # https://transfer.sh/
-source ~/.transfer.sh
+source ~/dotfiles/transfer.sh
 
 #PyEnv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
