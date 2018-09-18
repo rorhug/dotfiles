@@ -16,7 +16,7 @@
 		"*.zip",
 		"*.db"
 	],
-	"color_scheme": "Packages/Colorsublime - Themes/Foggy-Evening.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/super.tmTheme",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_white_space": "all",
@@ -43,7 +43,8 @@
 		"*.psd",
 		"*.sublime-workspace",
 		"intercom-base.css",
-		"log/*.log"
+		"log/*.log",
+		"data/schema.json"
 	],
 	"folder_exclude_patterns":
 	[
@@ -55,28 +56,36 @@
 		".bower",
 		"tmp",
 		"ember-dev",
-		"~"
+		"~",
+		".stack-work",
+		"bower_components",
+		"dist",
+		"build",
+		".tmp",
+		"assets/js/dependencies",
+		"coverage",
+		"public/static",
+		"__generated__"
 	],
-	"font_face": "Monaco",
+	"font_face": "Anonymous Pro",
 	"font_options":
 	[
 		"no_antialias_"
 	],
-	"font_size": 12,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"SideBarEnhancements",
 		"Vintage"
 	],
-	"line_padding_bottom": -1,
-	"line_padding_top": -2,
+	"line_padding_bottom": 0,
+	"line_padding_top": -1,
 	"rulers":
 	[
-		
 	],
 	"scroll_past_end": true,
 	"tab_completion": true,
 	"tab_size": 2,
-	"theme": "Default.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
