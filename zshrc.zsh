@@ -45,7 +45,7 @@ plugins=(git hub osx ruby rails cp gem lol pow postgres)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Custom aliases
 # eval "$(hub alias -s)"
@@ -58,16 +58,22 @@ alias gam='git commit -am'
 alias fuckoff='bundle; bundle exec rake db:migrate; bundle exec rake db:migrate RAILS_ENV=test;'
 alias delmerged='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias gcb='git checkout -b'
-alias gic='git icdiff | less'
+# alias gic='git icdiff | less'
+alias gitlog='git log  --graph --oneline --stat --pickaxe-all'
 alias be='bundle exec'
 alias donepr='gcm; gl; delmerged;'
 alias flushdns='sudo discoveryutil mdnsflushcache'
-alias pd='ggp && cap deploy'
+# alias pd='ggp && cap deploy'
+alias pd='ggp && eb deploy'
+alias tcon='eb ssh --command "sudo /root/rc.sh"'
 
 # install rmtrash, (either from the macports or by the brew.)
 alias trash="rmtrash"
-alias   del="rmtrash"       # del / trash are shorter than rmtrash
+alias del="rmtrash"       # del / trash are shorter than rmtrash
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
+
+
+alias flifi="sudo ifconfig en0 down && sudo route flush && sudo ifconfig en0 up"
 
 starthb() {
   launchctl load ~/Library/LaunchAgents/homebrew.mxcl.$*.plist;
@@ -85,9 +91,24 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # RBenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+export PATH=$PATH:~/.local/bin:~/bin
+
 #nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+
+# place this after nvm initialization!
+autoload -U add-zsh-hook
+load-nvmrc() {
+  if [[ -f .nvmrc && -r .nvmrc ]]; then
+    nvm use
+  elif [[ $(nvm version) != $(nvm version default)  ]]; then
+    echo "Reverting to nvm default version"
+    nvm use default
+  fi
+}
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
 
 # My functions
 function mcd() { mkdir -p "$@" && eval cd "\"\$$#\""; }

@@ -6,22 +6,24 @@
 	"installed_packages":
 	[
 		"arduino-cli",
+		"ARM Assembly",
 		"Babel",
 		"Better CoffeeScript",
 		"ColorPick",
 		"ColorPicker",
 		"Colorsublime",
 		"Elixir",
+		"Flow",
 		"Gist",
 		"GitGutter",
 		"Github Tools",
 		"Handlebars",
 		"Jade",
-		"JSHint",
 		"JSX",
 		"LESS",
 		"nginx",
 		"Package Control",
+		"Prolog",
 		"Promela_Spin",
 		"Python Completions",
 		"RSpec",
@@ -36,6 +38,7 @@
 		"TrailingSpaces",
 		"VHDL",
 		"View In Browser",
-		"Warp-OS Color Scheme"
+		"Warp-OS Color Scheme",
+		"ZSH"
 	]
 }
