@@ -16,7 +16,7 @@
 		"*.zip",
 		"*.db"
 	],
-	"color_scheme": "Packages/Colorsublime - Themes/Foggy-Evening.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Cozy.tmTheme",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_white_space": "all",
@@ -65,6 +65,7 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
+		"Github Tools",
 		"SideBarEnhancements",
 		"Vintage"
 	],
@@ -72,7 +73,6 @@
 	"line_padding_top": -2,
 	"rulers":
 	[
-		
 	],
 	"scroll_past_end": true,
 	"tab_completion": true,
