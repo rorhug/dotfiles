@@ -95,7 +95,7 @@ export PATH=$PATH:~/.local/bin:~/bin
 
 #nvm
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+. "/usr/local/opt/nvm/nvm.sh"
 
 # place this after nvm initialization!
 autoload -U add-zsh-hook
