@@ -1,12 +1,8 @@
-unlink ~/.gitconfig
-ln -s ~/dotfiles/gitconfig.config ~/.gitconfig
+ln -sf ~/dotfiles/gitconfig.config ~/.gitconfig
 
-unlink ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-ln -s ~/dotfiles/st3-packages-user ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+ln -sfh ~/dotfiles/st3-packages/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 
-unlink ~/.zshrc
-ln -s ~/dotfiles/zshrc.zsh ~/.zshrc
+ln -sf ~/dotfiles/zshrc.zsh ~/.zshrc
 
-unlink ~/Library/Application\ Support/Code/User
-ln -s ~/dotfiles/vscode/User ~/Library/Application\ Support/Code/User
+ln -sfh ~/dotfiles/vscode/User ~/Library/Application\ Support/Code
 
