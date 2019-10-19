@@ -1,0 +1,2 @@
+cat extensions.list | xargs -L 1 vsc --install-extension
+

@@ -1,0 +1,1 @@
+vsc --list-extensions > extensions.list
