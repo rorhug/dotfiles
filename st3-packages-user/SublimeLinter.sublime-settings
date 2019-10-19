@@ -1,0 +1,18 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "eslint": {
+      "executable": ["${folder}/node_modules/.bin/eslint"],
+      "working_dir": "${folder}",
+      "disable_if_not_dependency": false,
+      "env": {
+        "PATH": "~/.nvm/versions/node/v10.11.0/bin/"
+      }
+    }
+  },
+  "paths": {
+    "linux": [],
+    "osx": [],
+    "windows": []
+  },
+}

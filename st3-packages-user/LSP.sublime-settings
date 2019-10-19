@@ -1,0 +1,22 @@
+{
+	"clients":
+	{
+		"haskell-ide-engine":
+		{
+			"command":
+			[
+				"~/.local/bin/hie"
+			],
+			"enabled": false,
+			"languageId": "haskell",
+			"scopes":
+			[
+				"source.haskell"
+			],
+			"syntaxes":
+			[
+				"Packages/Haskell/Haskell.sublime-syntax"
+			]
+		}
+	}
+}
