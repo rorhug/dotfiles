@@ -6,3 +6,7 @@ ln -s ~/dotfiles/st3-packages-user ~/Library/Application\ Support/Sublime\ Text\
 
 unlink ~/.zshrc
 ln -s ~/dotfiles/zshrc.zsh ~/.zshrc
+
+unlink ~/Library/Application\ Support/Code/User
+ln -s ~/dotfiles/vscode/User ~/Library/Application\ Support/Code/User
+

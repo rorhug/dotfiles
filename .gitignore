@@ -9,3 +9,9 @@ oscrypto-ca-bundle.crt
 *.tmTheme
 .DS_Store
 
+
+vscode/User/globalStorage/state.vscdb
+vscode/User/globalStorage/state.vscdb.backup
+vscode/User/workspaceStorage
+
+
