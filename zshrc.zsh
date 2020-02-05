@@ -40,7 +40,7 @@ ZSH_THEME="af-magic"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git hub osx ruby rails cp gem lol pow postgres docker-compose docker)
+plugins=(git hub osx ruby rails cp gem pow postgres docker-compose docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -78,7 +78,7 @@ alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 alias flifi="sudo ifconfig en0 down && sudo route flush && sudo ifconfig en0 up"
 
 function ip-api() {
-  curl -v "http://54.38.92.92/json/$1?fields=16515071" | jq
+  curl -v "http://208.95.112.1/json/$1?fields=16515071" | jq
 }
 alias ip="ip-api"
 alias mip="ip-api"
@@ -175,6 +175,9 @@ function rcp() {
   rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress $1 $2
 }
 
+
+export HUB_CONFIG=~/.config/hub-rorhug
+export NODE_ENV=development
 
 #### Startup info ####
 
