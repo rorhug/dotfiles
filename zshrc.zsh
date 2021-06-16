@@ -214,3 +214,4 @@ export NODE_ENV=development
 # echo "Last 3 tweets..."
 # t timeline -n 3
 
+export ECTO_URL=pg://localhost/tandem_devexport PATH="/usr/local/opt/openjdk/bin:$PATH"
