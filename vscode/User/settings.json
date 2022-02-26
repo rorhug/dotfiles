@@ -1,69 +1,74 @@
 {
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.renderWhitespace": "boundary",
-    "editor.tabSize": 2,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "[xml]": {
-        "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 60,
-    "editor.minimap.showSlider": "always",
-    "editor.lineHeight": 18,
-    "workbench.activityBar.visible": true,
-    "elixirLS.suggestSpecs": false,
-    "liveshare.featureSet": "insiders",
-    "liveshare.presence": true,
-    "[elixir]": {},
-    "workbench.statusBar.visible": true,
-    "elixirLS.dialyzerEnabled": false,
-    "editor.fontSize": 15,
-    "elixirLS.fetchDeps": false,
-    "editor.minimap.enabled": false,
-    "pgsql.connections": [
-        {
-            "host": "localhost",
-            "dbname": "",
-            "user": "r",
-            "password": "",
-            "emptyPasswordInput": true,
-            "port": "5432",
-            "profileName": "local"
-        }
-    ],
-    "files.exclude": {
-        "**/node_modules": true
-    },
-    "tabnine.experimentalAutoImports": true,
-    "ruby.interpreter.commandPath": "/Users/r/.rbenv/shims/ruby",
-    "ruby.useLanguageServer": true,
-    "solargraph.bundlerPath": "/Users/r/.rbenv/shims/bundle",
-    "solargraph.commandPath": "/Users/r/.rbenv/shims/solargraph",
-    "ruby.codeCompletion": "rcodetools",
-    "ruby.format": false,
-    "ruby.intellisense": "rubyLocate",
-    "ruby.useBundler": true,
-    "ruby.pathToBundler": "/Users/r/.rbenv/shims/bundle",
-    "ruby.lint": {
-    
-    },
-    "solargraph.logLevel": "debug",
-    "discord.workspaceElapsedTime": false,
-    "discord.lowerDetailsEditing": "{workspace_folder}",
-    "discord.detailsEditing": "{file_name}",
-    "discord.detailsDebugging": "Debug {file_name}",
-    "discord.lowerDetailsDebugging": "{workspace_folder}",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "workbench.colorTheme": "Horizon Bold",
-    "eslint.alwaysShowStatus": true,
-    "window.zoomLevel": -1,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 60,
+  "editor.minimap.showSlider": "always",
+  "editor.lineHeight": 18,
+  "workbench.activityBar.visible": true,
+  "elixirLS.suggestSpecs": false,
+  "liveshare.featureSet": "insiders",
+  "liveshare.presence": true,
+  "[elixir]": {},
+  "workbench.statusBar.visible": true,
+  "elixirLS.dialyzerEnabled": false,
+  "editor.fontSize": 15,
+  "elixirLS.fetchDeps": false,
+  "editor.minimap.enabled": false,
+  "pgsql.connections": [
+    {
+      "host": "localhost",
+      "dbname": "",
+      "user": "r",
+      "password": "",
+      "emptyPasswordInput": true,
+      "port": "5432",
+      "profileName": "local"
+    }
+  ],
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "ruby.interpreter.commandPath": "/Users/r/.rbenv/shims/ruby",
+  "ruby.useLanguageServer": true,
+  "solargraph.bundlerPath": "/Users/r/.rbenv/shims/bundle",
+  "solargraph.commandPath": "/Users/r/.rbenv/shims/solargraph",
+  "ruby.codeCompletion": "rcodetools",
+  "ruby.format": false,
+  "ruby.intellisense": "rubyLocate",
+  "ruby.useBundler": true,
+  "ruby.pathToBundler": "/Users/r/.rbenv/shims/bundle",
+  "ruby.lint": {},
+  "solargraph.logLevel": "debug",
+  "discord.workspaceElapsedTime": false,
+  "discord.lowerDetailsEditing": "{workspace_folder}",
+  "discord.detailsEditing": "{file_name}",
+  "discord.detailsDebugging": "Debug {file_name}",
+  "discord.lowerDetailsDebugging": "{workspace_folder}",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "eslint.alwaysShowStatus": true,
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "workbench.preferredDarkColorTheme": "Pop N' Lock Theme by Luxcium ✨ TSA/ASD 🧩",
+  "workbench.preferredLightColorTheme": "Solarized Light Alternate",
+  "window.autoDetectColorScheme": true,
+  "gitlens.views.branches.branches.layout": "list",
+  "workbench.colorTheme": "Solarized Light Alternate",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "editor.inlineSuggest.enabled": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "window.zoomLevel": 1
 }
