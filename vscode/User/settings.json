@@ -13,7 +13,7 @@
   "editor.minimap.renderCharacters": false,
   "editor.minimap.maxColumn": 60,
   "editor.minimap.showSlider": "always",
-  "editor.lineHeight": 18,
+  "editor.lineHeight": 16,
   "workbench.activityBar.visible": true,
   "elixirLS.suggestSpecs": false,
   "liveshare.featureSet": "insiders",
@@ -21,7 +21,7 @@
   "[elixir]": {},
   "workbench.statusBar.visible": true,
   "elixirLS.dialyzerEnabled": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "elixirLS.fetchDeps": false,
   "editor.minimap.enabled": false,
   "pgsql.connections": [
@@ -66,9 +66,10 @@
   "workbench.preferredLightColorTheme": "Solarized Light Alternate",
   "window.autoDetectColorScheme": true,
   "gitlens.views.branches.branches.layout": "list",
-  "workbench.colorTheme": "Solarized Light Alternate",
+  "workbench.colorTheme": "Noctis Minimus",
   "workbench.editor.focusRecentEditorAfterClose": false,
   "editor.inlineSuggest.enabled": true,
   "bracket-pair-colorizer-2.depreciation-notice": false,
-  "window.zoomLevel": 1
+  "editor.bracketPairColorization.enabled": true,
+  "window.zoomLevel": -1
 }

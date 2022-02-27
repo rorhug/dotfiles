@@ -40,12 +40,14 @@ ZSH_THEME="af-magic"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git hub osx ruby rails cp gem pow postgres docker-compose docker)
+plugins=(git macos ruby rails cp gem pow postgres docker-compose docker)
 
 source $ZSH/oh-my-zsh.sh
 
+export VOLTA_HOME=$HOME/.volta
+
 # Customize to your needs...
-export PATH=~/bin:~/.local/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=$VOLTA_HOME/bin:~/bin:~/.local/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # Custom aliases
 # eval "$(hub alias -s)"
@@ -91,8 +93,10 @@ alias rc="subl ~/.zshrc"
 alias fypf="~/college/fyp"
 alias fypg="~/college/fyp/ranon"
 
+alias vsc="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
-eval "$(direnv hook zsh)"
+
+# eval "$(direnv hook zsh)"
 
 
 # starthb() {
@@ -107,38 +111,38 @@ eval "$(direnv hook zsh)"
 
 # echo "pyenv..."
 #PyEnv
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+# if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # echo "rbenv..."
 # RBenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # go
 export GOPATH="/Users/r/src/Go"
 
 # java
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 
 # todo, switch to a faster node version manager....
 # echo "nvm1 slow..."
 # #nvm
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+# export NVM_DIR="$HOME/.nvm"
+# . "/usr/local/opt/nvm/nvm.sh"
 
-echo "nvm2 slow..."
-# place this after nvm initialization!
-autoload -U add-zsh-hook
-load-nvmrc() {
-  if [[ -f .nvmrc && -r .nvmrc ]]; then
-    nvm use
-  elif [[ $(nvm version) != $(nvm version default)  ]]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
-}
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+# echo "nvm2 slow..."
+# # place this after nvm initialization!
+# autoload -U add-zsh-hook
+# load-nvmrc() {
+#   if [[ -f .nvmrc && -r .nvmrc ]]; then
+#     nvm use
+#   elif [[ $(nvm version) != $(nvm version default)  ]]; then
+#     echo "Reverting to nvm default version"
+#     nvm use default
+#   fi
+# }
+# add-zsh-hook chpwd load-nvmrc
+# load-nvmrc
 
 # echo "done nvm..."
 
@@ -213,5 +217,3 @@ export NODE_ENV=development
 # twitter!
 # echo "Last 3 tweets..."
 # t timeline -n 3
-
-export ECTO_URL=pg://localhost/tandem_devexport PATH="/usr/local/opt/openjdk/bin:$PATH"
